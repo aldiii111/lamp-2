@@ -11,13 +11,14 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 m-35 md:m-35">
 
         <!-- rg keluarga -->
-        <div class="flex flex-col bg-sky-50 items-center justify-center  col-span-2 p-6 sm:p-8 gap-6 rounded-2xl w-full max-w-xl mx-auto">
+        <div
+            class="flex flex-col bg-sky-50 items-center justify-center  col-span-2 p-6 sm:p-8 gap-6 rounded-2xl w-full max-w-xl mx-auto">
             <div>
                 <p class="font-bold text-xl">Ruang Keluarga</p>
             </div>
-            <div class="flex flex-row gap-16">
+            <div class="flex flex-row gap-8">
                 <div class="flex flex-col gap-5">
-                    <img src="assets/images/off.gif" id="lampu1k" class="w-20 sm:w-24 md:w-28 mx-auto object-contain"/>
+                    <img src="assets/images/off.gif" id="lampu1k" class="" />
                     <label class="inline-flex items-center cursor-pointer">
                         <input type="checkbox" value="" class="sr-only peer" id="toggle1k" onchange="saklar()" />
                         <div
@@ -27,7 +28,7 @@
                     </label>
                 </div>
                 <div class="flex flex-col gap-5">
-                    <img src="assets/images/off.gif" id="lampu2k" class="w-20 sm:w-24 md:w-28 mx-auto object-contain"/>
+                    <img src="assets/images/off.gif" id="lampu2k" class="" />
                     <label class="inline-flex items-center cursor-pointer">
                         <input type="checkbox" value="" class="sr-only peer" id="toggle2k" onchange="saklar()" />
                         <div
@@ -37,7 +38,7 @@
                     </label>
                 </div>
                 <div class="flex flex-col gap-5">
-                    <img src="assets/images/off.gif" id="lampu3k" class="w-20 sm:w-24 md:w-28 mx-auto object-contain"/>
+                    <img src="assets/images/off.gif" id="lampu3k" class="" />
                     <label class="inline-flex items-center cursor-pointer">
                         <input type="checkbox" value="" class="sr-only peer" id="toggle3k" onchange="saklar()" />
                         <div
@@ -47,15 +48,25 @@
                     </label>
                 </div>
             </div>
+            <div>
+                <label class="inline-flex items-center cursor-pointer">
+                    <input type="checkbox" value="" class="sr-only peer" id="togglekall" onchange="saklar()" />
+                    <div
+                        class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600 dark:peer-checked:bg-blue-600">
+                    </div>
+                    <span class="ms-3 text-sm font-medium text-white-500">Lampu all</span>
+                </label>
+            </div>
         </div>
 
         <!-- rg makan -->
-        <div class="flex flex-col bg-sky-50 items-center justify-center gap-5 rounded-2xl p-6 sm:p-8 w-full max-w-xl mx-auto">
+        <div
+            class="flex flex-col bg-sky-50 items-center justify-center gap-5 rounded-2xl p-6 sm:p-8 w-full max-w-xl mx-auto">
             <div>
                 <p class="font-bold text-xl">Ruang Makan</p>
             </div>
             <div class="flex flex-col gap-5">
-                <img src="assets/images/off.gif" id="lampu1m" class="w-20 sm:w-24 md:w-28 mx-auto object-contain"/>
+                <img src="assets/images/off.gif" id="lampu1m" class="" />
                 <label class="inline-flex items-center cursor-pointer">
                     <input type="checkbox" value="" class="sr-only peer" id="toggle1m" onchange="saklar()" />
                     <div
@@ -64,16 +75,26 @@
                     <span class="ms-3 text-sm font-medium text-white-500">Lampu 1m</span>
                 </label>
             </div>
+            <div>
+                <label class="inline-flex items-center cursor-pointer">
+                    <input type="checkbox" value="" class="sr-only peer" id="togglemall" onchange="saklar()" />
+                    <div
+                        class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600 dark:peer-checked:bg-blue-600">
+                    </div>
+                    <span class="ms-3 text-sm font-medium text-white-500">Lampu all</span>
+                </label>
+            </div>
         </div>
 
         <!-- rg tamu -->
-        <div class="flex flex-col bg-sky-50 items-center justify-center col-span-3 p-6 sm:p-8 w-full max-w-xl mx-auto gap-5 rounded-2xl">
+        <div
+            class="flex flex-col bg-sky-50 items-center justify-center col-span-3 p-6 sm:p-8 w-full max-w-xl mx-auto gap-5 rounded-2xl">
             <div>
                 <p class="font-bold text-xl">Ruang Tamu</p>
             </div>
-            <div class="flex flex-row gap-7 mb-8">
+            <div class="flex flex-row gap-8">
                 <div class="flex flex-col gap-5">
-                    <img src="assets/images/off.gif" id="lampu1t" class="w-20 sm:w-24 md:w-28 mx-auto object-contain"/>
+                    <img src="assets/images/off.gif" id="lampu1t" class="" />
                     <label class="inline-flex items-center cursor-pointer">
                         <input type="checkbox" value="" class="sr-only peer" id="toggle1t" onchange="saklar()" />
                         <div
@@ -83,7 +104,7 @@
                     </label>
                 </div>
                 <div class="flex flex-col gap-5">
-                    <img src="assets/images/off.gif" id="lampu2t" />
+                    <img src="assets/images/off.gif" id="lampu2t" class="" />
                     <label class="inline-flex items-center cursor-pointer">
                         <input type="checkbox" value="" class="sr-only peer" id="toggle2t" onchange="saklar()" />
                         <div
@@ -93,7 +114,7 @@
                     </label>
                 </div>
                 <div class="flex flex-col gap-5">
-                    <img src="assets/images/off.gif" id="lampu3t" />
+                    <img src="assets/images/off.gif" id="lampu3t" class="" />
                     <label class="inline-flex items-center cursor-pointer">
                         <input type="checkbox" value="" class="sr-only peer" id="toggle3t" onchange="saklar()" />
                         <div
@@ -103,7 +124,7 @@
                     </label>
                 </div>
                 <div class="flex flex-col gap-5">
-                    <img src="assets/images/off.gif" id="lampu4t" />
+                    <img src="assets/images/off.gif" id="lampu4t" class="" />
                     <label class="inline-flex items-center cursor-pointer">
                         <input type="checkbox" value="" class="sr-only peer" id="toggle4t" onchange="saklar()" />
                         <div
@@ -113,6 +134,15 @@
                     </label>
                 </div>
             </div>
+            <div>
+                <label class="inline-flex items-center cursor-pointer">
+                    <input type="checkbox" value="" class="sr-only peer" id="toggletall" onchange="saklar()" />
+                    <div
+                        class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600 dark:peer-checked:bg-blue-600">
+                    </div>
+                    <span class="ms-3 text-sm font-medium text-white-500">Lampu all</span>
+                </label>
+            </div>
         </div>
 
         <!-- rg tidur -->
@@ -120,7 +150,7 @@
             <div>
                 <p class="font-bold text-xl">Ruang Tidur</p>
             </div>
-            <div class="flex flex-row gap-16">
+            <div class="flex flex-row gap-8">
                 <div class="flex flex-col gap-5">
                     <img src="assets/images/off.gif" id="lampu1tt" />
                     <label class="inline-flex items-center cursor-pointer">
@@ -144,7 +174,7 @@
             </div>
             <div>
                 <label class="inline-flex items-center cursor-pointer">
-                    <input type="checkbox" value="" class="sr-only peer" id="toggle2ttall" onchange="saklar()" />
+                    <input type="checkbox" value="" class="sr-only peer" id="togglettall" onchange="saklar()" />
                     <div
                         class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600 dark:peer-checked:bg-blue-600">
                     </div>
