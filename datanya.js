@@ -38,18 +38,73 @@ function saklar() {
     } else {
         lampu1k.src = "assets/images/off.gif"
     }
-        if (toggle2k.checked) {
+    if (toggle2k.checked) {
         lampu2k.src = "assets/images/on.gif"
     } else {
         lampu2k.src = "assets/images/off.gif"
     }
-        if (toggle3k.checked) {
+    if (toggle3k.checked) {
         lampu3k.src = "assets/images/on.gif"
     } else {
         lampu3k.src = "assets/images/off.gif"
     }
 
+    if (togglekall.checked) {
+        lampu1k.src = "assets/images/on.gif"
+        lampu2k.src = "assets/images/on.gif"
+        lampu3k.src = "assets/images/on.gif"
+    } else {
+        lampu1k.src = "assets/images/off.gif"
+        lampu2k.src = "assets/images/off.gif"
+        lampu3k.src = "assets/images/off.gif"
+    }
 
+    // lampu interaktif js makan
+    if (toggle1m.checked) {
+        lampu1m.src = "assets/images/on.gif"
+    } else {
+        lampu1m.src = "assets/images/off.gif"
+    }
+
+    if (togglemall.checked) {
+        lampu1m.src = "assets/images/on.gif"
+    } else {
+        lampu1m.src = "assets/images/off.gif"
+    }
+
+    // lampu interaktif js tamu 
+    if (toggle1t.checked) {
+        lampu1t.src = "assets/images/on.gif"
+    } else {
+        lampu1t.src = "assets/images/off.gif"
+    }
+
+    if (toggle2t.checked) {
+        lampu2t.src = "assets/images/on.gif"
+    } else {
+        lampu2t.src = "assets/images/off.gif"
+    }
+
+    if (toggle3t.checked) {
+        lampu3t.src = "assets/images/on.gif"
+    } else {
+        lampu3t.src = "assets/images/off.gif"
+    }
+
+    if (toggle4t.checked) {
+        lampu4t.src = "assets/images/on.gif"
+    } else {
+        lampu4t.src = "assets/images/off.gif"
+    }
+
+    if (toggletall.checked) {
+        lampu1t.src = "assets/images/on.gif"
+        lampu2t.src = "assets/images/on.gif"
+        lampu3t.src = "assets/images/on.gif"
+        lampu4t.src = "assets/images/on.gif"
+    }else {
+        lampu1t.src 
+    }
 }
 
 
