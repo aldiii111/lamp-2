@@ -33,77 +33,64 @@ function saklar() {
     let lampu2tt = document.getElementById('lampu2tt')
 
     // interaktif js keluarga
-    if (toggle1k.checked) {
+    if (toggle1k.checked || togglekall.checked) {
         lampu1k.src = "assets/images/on.gif"
     } else {
         lampu1k.src = "assets/images/off.gif"
     }
-    if (toggle2k.checked) {
+    if (toggle2k.checked || togglekall.checked) {
         lampu2k.src = "assets/images/on.gif"
     } else {
         lampu2k.src = "assets/images/off.gif"
     }
-    if (toggle3k.checked) {
+    if (toggle3k.checked || togglekall.checked) {
         lampu3k.src = "assets/images/on.gif"
     } else {
-        lampu3k.src = "assets/images/off.gif"
-    }
-
-    if (togglekall.checked) {
-        lampu1k.src = "assets/images/on.gif"
-        lampu2k.src = "assets/images/on.gif"
-        lampu3k.src = "assets/images/on.gif"
-    } else {
-        lampu1k.src = "assets/images/off.gif"
-        lampu2k.src = "assets/images/off.gif"
         lampu3k.src = "assets/images/off.gif"
     }
 
     // lampu interaktif js makan
-    if (toggle1m.checked) {
-        lampu1m.src = "assets/images/on.gif"
-    } else {
-        lampu1m.src = "assets/images/off.gif"
-    }
-
-    if (togglemall.checked) {
+    if (toggle1m.checked || togglemall.checked) {
         lampu1m.src = "assets/images/on.gif"
     } else {
         lampu1m.src = "assets/images/off.gif"
     }
 
     // lampu interaktif js tamu 
-    if (toggle1t.checked) {
+    if (toggle1t.checked || toggletall.checked) {
         lampu1t.src = "assets/images/on.gif"
     } else {
         lampu1t.src = "assets/images/off.gif"
     }
 
-    if (toggle2t.checked) {
+    if (toggle2t.checked || toggletall.checked) {
         lampu2t.src = "assets/images/on.gif"
     } else {
         lampu2t.src = "assets/images/off.gif"
     }
 
-    if (toggle3t.checked) {
+    if (toggle3t.checked || toggletall.checked) {
         lampu3t.src = "assets/images/on.gif"
     } else {
         lampu3t.src = "assets/images/off.gif"
     }
 
-    if (toggle4t.checked) {
+    if (toggle4t.checked || toggletall.checked) {
         lampu4t.src = "assets/images/on.gif"
     } else {
         lampu4t.src = "assets/images/off.gif"
     }
 
-    if (toggletall.checked) {
-        lampu1t.src = "assets/images/on.gif"
-        lampu2t.src = "assets/images/on.gif"
-        lampu3t.src = "assets/images/on.gif"
-        lampu4t.src = "assets/images/on.gif"
-    }else {
-        lampu1t.src 
+    // lampu interaktif js tidur
+    if (toggle1tt.checked || togglettall.checked) {
+        lampu1tt.src = "assets/images/on.gif"
+    } else {
+        lampu1tt.src = "assets/images/off.gif"
+    }
+    if (toggle2tt.checked || togglettall.checked) {
+        lampu2tt.src = "assets/images/on.gif"
+    } else {
+        lampu2tt.src = "assets/images/off.gif"
     }
 }
 
